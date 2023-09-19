@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkholdfast_roleplay_suite_docs=self.webpackChunkholdfast_roleplay_suite_docs||[]).push([[6353],{4327:s=>{s.exports=JSON.parse('{"permalink":"/Holdfast-Roleplay-Suite-Docs/blog/tags/docusaurus","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
