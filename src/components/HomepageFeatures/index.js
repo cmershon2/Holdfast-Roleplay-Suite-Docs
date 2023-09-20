@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Deploy',
+    Svg: require('@site/static/img/undraw_server_push_re_303w.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Deploy the online <a href='https://github.com/cmershon2/Holdfast-Roleplay-Microservice'>Holdfast Roleplay Microservice</a> to your desired hosting provider.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Manage Content',
+    Svg: require('@site/static/img/undraw_personal_data_re_ihde.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Manage your content using the easy to use drag and drop editor.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Build Your World',
+    Svg: require('@site/static/img/undraw_outer_space_re_u9vd.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Build your own world in Unity 3D & connect it to your content.
       </>
     ),
   },

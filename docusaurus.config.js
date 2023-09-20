@@ -6,15 +6,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Holdfast Roleplay Suite Docs',
+  title: 'Holdfast Roleplay Docs',
   tagline: 'Documentation over the Holdfast Roleplay Microservice & Unity integration.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://cmershon2.github.io',
+  url: 'https://holdfast-roleplay-docs.projecthost.dev',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/Holdfast-Roleplay-Suite-Docs/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -43,14 +43,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/cmershon2/Holdfast-Roleplay-Suite-Docs/tree/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/cmershon2/Holdfast-Roleplay-Suite-Docs/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -65,9 +65,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/social-card.png',
       navbar: {
-        title: 'Holdfast Roleplay Suite Docs',
+        title: 'Holdfast Roleplay',
         logo: {
-          alt: 'Holdfast Roleplay Suite Docs Logo',
+          alt: 'Holdfast Roleplay Docs Logo',
           src: 'img/logo.png',
         },
         items: [
@@ -75,7 +75,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -120,7 +120,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Holdfast Roleplay Suite Docs`,
+        copyright: `Copyright © ${new Date().getFullYear()} Code Ducky - Holdfast Roleplay Docs`,
       },
       prism: {
         theme: lightCodeTheme,

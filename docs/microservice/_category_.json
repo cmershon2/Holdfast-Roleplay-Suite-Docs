@@ -1,0 +1,8 @@
+{
+  "label": "Microservice",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Learn about the Holdfast Roleplay Mircoservice, how to deploy it, manage content, & utilize its API"
+  }
+}
