@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkholdfast_roleplay_suite_docs=self.webpackChunkholdfast_roleplay_suite_docs||[]).push([[648],{573:l=>{l.exports=JSON.parse('{"permalink":"/Holdfast-Roleplay-Suite-Docs/blog/tags/holdfast","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
