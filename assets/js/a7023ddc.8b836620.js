@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkholdfast_roleplay_suite_docs=self.webpackChunkholdfast_roleplay_suite_docs||[]).push([[713],{3457:e=>{e.exports=JSON.parse('[{"label":"Getting Started","permalink":"/blog/tags/getting-started","count":1},{"label":"Microservice","permalink":"/blog/tags/microservice","count":1},{"label":"Holdfast","permalink":"/blog/tags/holdfast","count":1}]')}}]);

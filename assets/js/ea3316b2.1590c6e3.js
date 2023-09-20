@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkholdfast_roleplay_suite_docs=self.webpackChunkholdfast_roleplay_suite_docs||[]).push([[135],{8734:t=>{t.exports=JSON.parse('{"label":"Getting Started","permalink":"/Holdfast-Roleplay-Suite-Docs/blog/tags/getting-started","allTagsPath":"/Holdfast-Roleplay-Suite-Docs/blog/tags","count":1}')}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkholdfast_roleplay_suite_docs=self.webpackChunkholdfast_roleplay_suite_docs||[]).push([[544],{9822:s=>{s.exports=JSON.parse('{"label":"Microservice","permalink":"/blog/tags/microservice","allTagsPath":"/blog/tags","count":1}')}}]);
