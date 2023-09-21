@@ -1,0 +1,8 @@
+{
+  "label": "API Endpoints",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Check out the API endpoints avaliable to use from the service."
+  }
+}
