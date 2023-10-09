@@ -29,7 +29,7 @@ Launching the Holdfast Roleplay Microservice is more than just another release; 
 To ensure you can harness the full potential of the Holdfast Roleplay Microservice, we've created a comprehensive documentation site. It's your roadmap to success, providing step-by-step guides, tutorials, and best practices for integration. Whether you're setting up for the first time or fine-tuning your masterpiece, our documentation will be your trusty companion.
 
 ## Get Started Today!
-Ready to embark on a journey of creativity and innovation? Head over to our [documentation](/docs/intro) to get started with the Holdfast Roleplay Microservice. We've got installation guides, feature deep-dives, and a thriving community waiting to support you.
+Ready to embark on a journey of creativity and innovation? Head over to our [documentation](/docs/overview) to get started with the Holdfast Roleplay Microservice. We've got installation guides, feature deep-dives, and a thriving community waiting to support you.
 
 Don't hesitate to join our [GitHub repository](https://github.com/cmershon2/Holdfast-Roleplay-Microservice) to be a part of our growing community. Share your ideas, report bugs, or even contribute to the project itself. We believe in the power of collaboration, and together, we can redefine gaming experiences.
 
