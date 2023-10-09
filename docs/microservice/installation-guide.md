@@ -1,29 +1,49 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # Installation Guide
 
 Welcome to the installation guide for the Holdfast Roleplay Microservice. This guide will walk you through the process of setting up the microservice in your Next.js 13 project using Prisma. Please ensure you have the following prerequisites before you begin:
 
-- Node.js (Recommended version: 18.18.0 or higher)
-- Prisma Client
+- [Node.js](https://nodejs.org/) (Recommended version: 18.18.0 or higher)
+- [Prisma Client](https://www.prisma.io/docs/concepts/components/prisma-client)
 - MySQL Database
 - SMTP Server
 
 For our internal use case, we used [Planet Scale](https://planetscale.com/) for the MySQL database and [Mailgun](https://www.mailgun.com/) for the SMTP server.
 
-## Step 1: Clone the Repository
+## Quick Installation
+The quick installation will use the current [main branch](https://github.com/cmershon2/Holdfast-Roleplay-Microservice) to deploy the service to [Digital Ocean's App Platform](https://www.digitalocean.com/products/app-platform). Note that this method will still require a MySQL database, SMTP server, and Prisma Client in order to initialize/seed the database.
+
+[![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/cmershon2/Holdfast-Roleplay-Microservice/tree/main)
+
+:::note
+
+It is recommended that sensitive environment variables have 'Encrypt' enabled for better security. 
+Some environment variables to consider are the following: 
+- NEXTAUTH_SECRET
+- SMTP_USERNAME
+- SMTP_PASSWORD
+- DATABASE_URL
+- STAGING_DATABASE_URL 
+
+:::
+
+## Manual Installation
+The manual installation allows you to clone the repository and make any local changes for your implementation.
+
+### Step 1: Clone the Repository
 First, clone the Holdfast Roleplay Microservice repository to your local machine.
 
-## Step 2: Install Dependencies
+### Step 2: Install Dependencies
 Navigate to the project directory and install the required dependencies using npm:
 ```
 cd holdfast-roleplay-microservice
 npm install
 ```
 
-## Step 3: Set Up Environment Variables
+### Step 3: Set Up Environment Variables
 Create a new .env file in the project root based on the .env.example file provided. Open the .env file and fill in the necessary values for your MySQL database and SMTP server configuration. These variables are crucial for the proper functioning of the microservice.
 
 ```
@@ -48,7 +68,7 @@ DATABASE_URL='mysql://USER:PASSWORD@HOST:PORT/DATABASE?schema=SCHEMA'
 STAGING_DATABASE_URL='mysql://USER:PASSWORD@HOST:PORT/DATABASE?schema=SCHEMA'
 ```
 
-## Step 4: Prisma Setup
+### Step 4: Prisma Setup
 Ensure you have Prisma Client installed globally. If not, you can install it using:
 ```
 npm install -g prisma
@@ -59,13 +79,13 @@ Next, generate the Prisma Client by running:
 npx prisma generate
 ```
 
-## Step 5: Database Seeding
+### Step 5: Database Seeding
 Before deploying, it's recommended to seed your database with initial data. Use the following command to seed the database using Prisma:
 ```
 npx prisma db seed
 ```
 
-## Step 6: Deployment
+### Step 6: Deployment
 With the dependencies installed, environment variables configured, and the database seeded, you are now ready to deploy your Holdfast Roleplay Microservice using Next.js 13.
 
 For our internal use case, we deployed the service on [Digial Ocean's App Platform](https://www.digitalocean.com/products/app-platform).
